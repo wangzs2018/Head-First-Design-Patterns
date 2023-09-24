@@ -18,7 +18,8 @@ public class HouseDirector {
 		House woodHouse = woodHouseBuilder.addWalls().addWindows().addRoof().build();
 		System.out.println(woodHouse);
 		
-		HouseBuilder clayHouseBuilder = new ClayHouseBuilder();
+//		HouseBuilder clayHouseBuilder = new ClayHouseBuilder();
+		HouseBuilder clayHouseBuilder = null;
 		House clayHouse = clayHouseBuilder.addWalls().addWindows().addRoof().build();
 		System.out.println(clayHouse);
 		
